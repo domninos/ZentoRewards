@@ -1,0 +1,13 @@
+name: ZentoRewards
+version: 1.0-BETA
+main: net.omni.zentorewards.ZentoRewards
+author: omni
+commands:
+  reward:
+    description: Award player.
+    permission: zentorewards.reward
+  rewards:
+    description: Opens rewards GUI.
+permission:
+  zentorewards.reward:
+    default: false

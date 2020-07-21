@@ -1,0 +1,23 @@
+notify-delay: 180
+rewards:
+  epic_reward:
+    name: '&6Epic Reward'
+    lore:
+      - '&3Click this reward to obtain your epic'
+      - '&n&l&3items &3which you will only be able to obtain'
+      - '&3from this reward.'
+    commands:
+      - say %player% was awarded with %reward_name%
+
+messages:
+  prefix: '&7[&aZentoRewards&7]'
+  created: '&aSuccessfully created &b%reward_id% &7reward'
+  received: '&7You have received &b%reward_name%&7!'
+  notify: '&7You have &b%number_of_rewards% &7rewards to be opened!'
+  noperms: '&cYou do not have permissions to use this command.'
+  awarded: '&7You have been awarded with %reward_name%'
+  updatedReward: '&aSuccessfully updated %reward_id%'
+  removeCommands: '&aSuccessfully removed &b%command% &afrom &b%reward_id%'
+  addCommands: '&aSuccessfully added &b%command% &ato &b%reward_id%'
+  invalidOption: '&7%arg% is not a valid option!'
+  invalidReward: '&c%arg% is not a valid reward!'
